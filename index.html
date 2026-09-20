@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Yadav | Frontend Developer & CSE Undergraduate</title>
+  <meta name="description" content="Personal portfolio of Prince Yadav, a Frontend Developer and Computer Science Engineering undergraduate specializing in clean, responsive web applications." />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap"      rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="image.png">
+</head>
+<body>
+
+
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  
+  <header class="header">
+    <nav class="navbar" id="navbar">
+      <a href="#hero" class="nav-logo">Prince<span> Yadav</span></a>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#dsa" class="nav-link">DSA</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-tag">Available for Internships & Projects</p>
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Prince Yadav</span></h1>
+          <h2 class="hero-role">Frontend Developer | CSE Undergraduate</h2>
+          <p class="hero-desc">
+            I build modern, responsive, and user-friendly web experiences with a sharp focus on clean design, performance, and functionality.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+          <div class="hero-socials">
+            <a href="https://github.com/CodeWithPrinceYadav" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/princeyadav00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=princeyadav15092005@gmail.com" target="_blank" aria-label="Send Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-editor-card">
+            <div class="editor-header">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="file-name">PrinceYadav.js</span> 
+            </div>
+            <pre class="editor-body"><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Prince Yadav'</span>,
+  <span class="property">role</span>: <span class="string">'Frontend Developer'</span>,
+  <span class="property">education</span>: <span class="string">'CSE Undergraduate'</span>,
+  <span class="property">coreTech</span>: [<span class="string">'HTML5'</span>, <span class="string">'CSS3'</span>, <span class="string">'JS'</span>],
+  <span class="property">problemSolving</span>: <span class="string">'200+ DSA Solved'</span>,
+  <span class="property">openToWork</span>: <span class="boolean">true</span>
+};
+
+<span class="keyword">function</span> <span class="function">getMission</span>() {
+  <span class="keyword">return</span> <span class="string">'Building fast, clean & accessible interfaces'</span>;
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a Computer Science Engineering undergraduate passionate about frontend development and software technologies. I bridge technical logic and visual layout to engineer robust, cross-browser web solutions.
+            </p>
+            <p>
+              Whether structuring production-level business sites or working through data structures, I value readable code, maintainable architecture, and intuitive user experiences.
+            </p>
+            <div class="focus-list">
+              <div class="focus-item"><i class="fa-solid fa-code"></i> Building Websites</div>
+              <div class="focus-item"><i class="fa-solid fa-laptop-code"></i> Real-World Projects</div>
+              <div class="focus-item"><i class="fa-solid fa-brain"></i> Solving DSA Problems</div>
+              <div class="focus-item"><i class="fa-solid fa-lightbulb"></i> Learning Tech</div>
+              <div class="focus-item"><i class="fa-solid fa-video"></i> Video Editing</div>
+            </div>
+          </div>
+          <div class="about-cards">
+            <div class="feature-card">
+              <span class="card-icon"><i class="fa-solid fa-layer-group"></i></span>
+              <h3>Modern UI/UX</h3>
+              <p>Responsive, mobile-first design systems built with CSS Grid and Flexbox standards.</p>
+            </div>
+            <div class="feature-card">
+              <span class="card-icon"><i class="fa-solid fa-microchip"></i></span>
+              <h3>Algorithmic Logic</h3>
+              <p>Applying clean data structure fundamentals to optimize web performance and execution.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-code-branch"></i>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+              <span class="tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="tag"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Design</span>
+              <span class="tag"><i class="fa-solid fa-table-columns"></i> Flexbox & CSS Grid</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-cubes"></i>
+              <h3>Programming &amp; Problem Solving</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag"><i class="fa-solid fa-terminal"></i> C++</span>
+              <span class="tag"><i class="fa-solid fa-sitemap"></i> Data Structures</span>
+              <span class="tag"><i class="fa-solid fa-network-wired"></i> Algorithms</span>
+              <span class="tag"><i class="fa-solid fa-gears"></i> Problem Solving</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <h3>Tools &amp; Platforms</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="tag"><i class="fa-brands fa-github"></i> GitHub</span>
+              <span class="tag"><i class="fa-solid fa-code"></i> VS Code</span>
+              <span class="tag"><i class="fa-solid fa-file-excel"></i> MS Excel</span>
+              <span class="tag"><i class="fa-solid fa-chart-simple"></i> Power BI (Basics)</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-photo-film"></i>
+              <h3>Creative Skills</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="tag"><i class="fa-solid fa-scissors"></i> Video Editing</span>
+              <span class="tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Content Composition</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card featured-project" data-project="armania">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fa-solid fa-champagne-glasses"></i>
+                <span>Armania Cafe &amp; Pub</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="badge featured">Featured Project</span>
+                <span class="badge real-world">Real-World Project</span>
+              </div>
+              <h3 class="project-title">Armania Cafe &amp; Pub</h3>
+              <p class="project-desc">
+                A modern business website created for Armania Cafe &amp; Pub, designed to provide customers with an attractive online experience and easy access to essential cafe info.
+              </p>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-check"></i> Menu browsing &amp; table reservations</li>
+                <li><i class="fa-solid fa-check"></i> Location mapping &amp; direct contacts</li>
+                <li><i class="fa-solid fa-check"></i> Mobile-first customer interface</li>
+              </ul>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="#PROJECT-LIVE-LINK" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="#PROJECT-GITHUB-LINK" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                <button class="btn btn-sm btn-text open-modal-btn" data-target="modal-armania">Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="erp">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>ERP Management</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ERP Management System</h3>
+              <p class="project-desc">
+                An ERP management web application designed to organize and manage business-related information through a structured and user-friendly interface.
+              </p>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-check"></i> Clean data tables and modular layout</li>
+                <li><i class="fa-solid fa-check"></i> Business tracking layout models</li>
+              </ul>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="erpmanagementproject.netlify.app" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/CodeWithPrinceYadav/ERP-management-for-Institute" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                <button class="btn btn-sm btn-text open-modal-btn" data-target="modal-erp">Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="netflix">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fa-solid fa-film"></i>
+                <span>Netflix Clone</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Netflix Clone</h3>
+              <p class="project-desc">
+                A Netflix-inspired responsive web interface created to practice frontend development, responsive media layouts, and modern UI design.
+              </p>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-check"></i> Responsive movie and series browsing UI</li>
+                <li><i class="fa-solid fa-check"></i> Interactive content banners &amp; sliders</li>
+              </ul>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://codewithprinceyadav.github.io/Netflix-Clone/"  class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/CodeWithPrinceYadav/Netflix-Clone" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                <button class="btn btn-sm btn-text open-modal-btn" data-target="modal-netflix">Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="flipkart">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Flipkart Clone</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Flipkart Clone</h3>
+              <p class="project-desc">
+                An e-commerce inspired frontend project created to practice product listings, responsive e-commerce grids, and interactive user interfaces.
+              </p>
+              <ul class="project-features">
+                <li><i class="fa-solid fa-check"></i> Structured catalog layout and filter shells</li>
+                <li><i class="fa-solid fa-check"></i> Cart and product card interaction design</li>
+              </ul>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://codewithprinceyadav.github.io/flipkart/" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="https://github.com/CodeWithPrinceYadav/flipkart" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                <button class="btn btn-sm btn-text open-modal-btn" data-target="modal-flipkart">Details</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="modal-armania">
+      <div class="modal-dialog">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <h3>Armania Cafe &amp; Pub</h3>
+        <p class="modal-desc">
+          A dedicated commercial website designed to improve the online footprint of Armania Cafe &amp; Pub. It focuses on accessible dining details, quick reservations, and fluid responsiveness.
+        </p>
+        <div class="modal-features">
+          <h4>Key Functionalities</h4>
+          <ul>
+            <li>Mobile-first design optimized for patrons checking details on the go</li>
+            <li>Interactive menu showcase organized cleanly</li>
+            <li>Built-in table booking contact routing</li>
+            <li>Embedded operational hours and location guidance</li>
+          </ul>
+        </div>
+        <div class="modal-tech">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+        </div>
+        <div class="modal-actions">
+          <a href="#PROJECT-LIVE-LINK" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
+          <a href="#PROJECT-GITHUB-LINK" class="btn btn-outline" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-erp">
+      <div class="modal-dialog">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <h3>ERP Management System</h3>
+        <p class="modal-desc">
+          A web application prototype aimed at organizing enterprise workflows, inventory, or resource data via a dashboard interface.
+        </p>
+        <div class="modal-features">
+          <h4>Key Highlights</h4>
+          <ul>
+            <li>Dashboard layout using flex and grid patterns</li>
+            <li>Data tables structured for high information density</li>
+            <li>Modular UI cards ready for data API binding</li>
+          </ul>
+        </div>
+        <div class="modal-tech">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+        </div>
+        <div class="modal-actions">
+          <a href="https://codewithprinceyadav.github.io/ERP-management-for-Institute/" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
+          <a href="https://github.com/CodeWithPrinceYadav/ERP-management-for-Institute" class="btn btn-outline" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-netflix">
+      <div class="modal-dialog">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <h3>Netflix Clone</h3>
+        <p class="modal-desc">
+          A frontend clone exploring streaming application design patterns, custom CSS carousels, and dark-theme media consumption UX.
+        </p>
+        <div class="modal-features">
+          <h4>Key Highlights</h4>
+          <ul>
+            <li>Hero section with billboard-style video preview container</li>
+            <li>Horizontal media rows with smooth card hovering animations</li>
+            <li>Fully responsive across mobile displays and wide monitors</li>
+          </ul>
+        </div>
+        <div class="modal-tech">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+        </div>
+        <div class="modal-actions">
+          <a href="https://codewithprinceyadav.github.io/Netflix-Clone/" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
+          <a href="https://github.com/CodeWithPrinceYadav/Netflix-Clone" class="btn btn-outline" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal-flipkart">
+      <div class="modal-dialog">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <h3>Flipkart Clone</h3>
+        <p class="modal-desc">
+          A storefront frontend replicate focused on commercial layouts, retail card grids, navigation trees, and product showcases.
+        </p>
+        <div class="modal-features">
+          <h4>Key Highlights</h4>
+          <ul>
+            <li>Product listing layout with structured prices, discounts, and ratings</li>
+            <li>Sticky utility header and search interface replica</li>
+            <li>CSS Grid media responsiveness</li>
+          </ul>
+        </div>
+        <div class="modal-tech">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+        </div>
+        <div class="modal-actions">
+          <a href="https://codewithprinceyadav.github.io/flipkart/" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
+          <a href="https://github.com/CodeWithPrinceYadav/flipkart" class="btn btn-outline" target="_blank" rel="noopener">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="section dsa" id="dsa">
+      <div class="container">
+        <h2 class="section-title">DSA &amp; Problem Solving</h2>
+        <div class="dsa-wrapper">
+          <div class="dsa-metric-card">
+            <span class="dsa-count">200+</span>
+            <p class="dsa-label">Problems Solved</p>
+            <p class="dsa-subtext">Solid algorithmic foundation covering core data structures and computational logic using C++.</p>
+          </div>
+          <div class="dsa-topics-grid">
+            <div class="topic-chip"><i class="fa-solid fa-code"></i> Arrays</div>
+            <div class="topic-chip"><i class="fa-solid fa-link"></i> Linked Lists</div>
+            <div class="topic-chip"><i class="fa-solid fa-layer-group"></i> Stacks &amp; Queues</div>
+            <div class="topic-chip"><i class="fa-solid fa-arrow-down-a-z"></i> Sorting</div>
+            <div class="topic-chip"><i class="fa-solid fa-magnifying-glass"></i> Searching</div>
+            <div class="topic-chip"><i class="fa-solid fa-tree"></i> Trees</div>
+            <div class="topic-chip"><i class="fa-solid fa-rotate-right"></i> Recursion</div>
+            <div class="topic-chip"><i class="fa-solid fa-binary"></i> Bit Manipulation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
+          <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-details">
+            <h3>Bachelor's in Computer Science Engineering</h3>
+            <p class="university"><i class="fa-solid fa-building-columns"></i> Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV) <br> &nbsp; &nbsp; &nbsp;Gyan Ganga Institute of Technology and Science, Jabalpur</p>
+            <p class="edu-desc">Focusing on fundamentals of computing, software development, data structures, algorithms, and web technologies.</p>
+          </div>
+        </div>
+<br>
+        <div class="education-card">
+          <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+          <div class="edu-details">
+            <h3>Standard Science (PCM)</h3>
+            <p class="university"><i class="fa-solid fa-building-columns"></i> Central Board of Secondary Education (CBSE) <br> &nbsp; &nbsp; &nbsp; Maharishi Vidya Mandir, Napier Town, Jabalpur</p>
+            <p class="edu-desc">Completed higher secondary education with a focus on Physics, Chemistry, and Mathematics, building strong analytical and problem-solving skills</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Have a project, opportunity, or idea? Feel free to get in touch.</p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-card">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=princeyadav15092005@gmail.com" target="_blank" aria-label="Send Email"> Send Mail </a>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <div>
+                <h4>LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/princeyadav00/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <h4>GitHub</h4>
+                <a href="https://github.com/CodeWithPrinceYadav" target="_blank" rel="noopener">Explore Repositories</a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <div id="form-feedback" class="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <h3 class="footer-name">Prince Yadav</h3>
+        <p class="footer-role">Frontend Developer | CSE Undergraduate</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/CodeWithPrinceYadav" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/princeyadav00/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=princeyadav15092005@gmail.com" target="_blank" aria-label="Send Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Prince Yadav. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
